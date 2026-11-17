@@ -1,0 +1,622 @@
+<!doctype html>
+<html amp lang="en">
+	
+<!-- Mirrored from https://namelix.com/amp.html by HTTrack Website Copier/3.x [XR&CO], Tue, 17 Nov 2026 16:01:08 GMT -->
+<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="favicon16.gif" type="image/x-icon" sizes="16x16" />
+		<link rel="shortcut icon" href="favicon32.gif" type="image/x-icon" sizes="32x32" />
+		
+		<link rel="canonical" href="index.html">
+		
+		<meta http-equiv="content-language" content="en">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+		<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+		
+		<meta name="title" content="Business Name Generator - Easily create Brandable Business Names - Namelix">
+		<meta name="description" content="Namelix uses generative AI to create a short, brandable business name. Search for domain availability, and instantly generate a logo for your new business">
+		
+		<title>Business Name Generator - free AI-powered naming tool - Namelix</title>
+		
+		<link rel="stylesheet" href="app/assets/fonts/jost/jost.css">
+		
+		<script async src="../cdn.ampproject.org/v0.js"></script>
+		<script async custom-element="amp-form" src="../cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+		<script async custom-element="amp-analytics" src="../cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+		
+		<style amp-custom>
+		html, body {
+			background-color: #ffffff;
+			color: #687689;
+			font: normal 16px/1.5 Helvetica, Arial, sans-serif;
+			font-family: 'Jost*',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+			font-weight: 500;
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+
+		h1 {
+			font-size: 2em;
+			font-weight: 500;
+			color: #5874DB;
+			margin: 0.2em 0 0 0;
+		}
+
+		h2 {
+			font-size: 1.5em;
+			font-weight: 500;
+			color: #bBD3F9;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		.section {
+			float: left;
+			width: 100%;
+		}
+
+		#main {
+			background: #505ABC url(img/background.svg) no-repeat;
+			background-position: center top;
+			background-size: auto 745px;
+			color: #fff;
+		}
+
+		.container {
+			display: block;
+			margin: 0 auto;
+			width: 60em;
+		}
+
+		#logo {
+			width: 110px;
+			float: left;
+			margin: 45px 0 0 0;
+		}
+
+		#logo amp-img {
+			float: left;
+			width: 100%;
+		}
+
+		#nav {
+			float: right;
+			margin: 50px 0 0 0;
+			padding: 0;
+		}
+
+		#nav li {
+			float: left;
+			font-size: 1em;
+			list-style: none;
+		}
+
+		#nav li a {
+			color: #fff;
+			margin: 0 1em;
+		}
+
+		#nav li a:hover {
+			border-bottom: 1px solid #fff;
+		}
+
+		#nav li a.button {
+			background-color: #faad4d;
+			padding: 0.6em 1.2em;
+			border-radius: 2em;
+			font-size: 0.9em;
+		}
+
+		#nav li a.button:hover {
+			background-color: #ffbf5f;
+			text-decoration: none;
+			border: 0;
+		}
+
+		#intro {
+			float: left;
+			text-align: center;
+			width: 100%;
+		}
+
+		#intro h1 {
+			font-size: 2.65em;
+			margin: 3.5em 0 0 0;
+			padding: 0;
+			line-height: 1.2em;
+			color: #fff;
+			font-weight: 500;
+		}
+
+		#intro h2 {
+			margin: 0 0 1em 0;
+			padding: 0;
+			font-weight: 500;
+		}
+
+		#intro input.text {
+			background-color: #fff;
+			color: #4A65BC;
+			border: 2px solid #4052BC;
+			box-sizing: border-box;
+			display: inline-block;
+			width: 24em;
+			padding: 0 1.5em;
+			height: 3em;
+			font-size: 1.1em;
+			border-radius: 0.5em;
+		}
+
+		#intro .button {
+			background-color: #363A8E;
+			color: #fff;
+			display: inline-block;
+			height: 3em;
+			border-radius: 0.5em;
+			padding: 0 2em;
+			line-height: 3em;
+			font-size: 1.1em;
+			margin-left: 0.5em;
+			cursor: pointer;
+			border: none;
+		}
+
+		#intro .button:hover {
+			background-color: #051A7F;
+		}
+
+		#features {
+			float: left;
+			width: 100%;
+			margin-top: 9em;
+			padding-bottom: 6em;
+		}
+
+		#features h3 {
+			font-size: 1.1em;
+			margin: 0;
+			padding: 0;
+			font-weight: 500;
+			display: inline;
+			vertical-align: middle;
+			margin-left: 0.5em;
+		}
+
+		#features .icon {
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		#features p {
+			font-size: 0.95em;
+			margin: 0.5em 0 0 0;
+			padding: 0;
+			font-weight: 400;
+			line-height: 1.4;
+			color: #bBD3F9;
+			padding-left: 3.1em;
+		}
+
+		.feature {
+			width: 33%;
+			float: left;
+			box-sizing: border-box;
+		}
+
+		.feature1 {
+			width: 32%;
+			padding-right: 3%;
+		}
+
+		.feature2 {
+			width: 36%;
+			padding: 0 4.5%;
+			border-left: 1px solid #6D97C9;
+			border-right: 1px solid #6D97C9;
+		}
+
+		.feature3 {
+			width: 32%;
+			padding-left: 3%;
+		}
+
+		#logos {
+			background: #D1E1ED url(img/background2.svg) no-repeat;
+			background-position: 50% 50%;
+			background-size: 100% auto;
+		}
+
+		#logos .col {
+			float: left;
+			width: 40%;
+			margin: 6em 0;
+		}
+
+		#logos amp-img {
+			float: right;
+			width: 60%;
+			margin: -4em -4em -5em 0;
+			-webkit-filter: drop-shadow( 1px 3px 5px #D1E1ED ); 
+			filter: drop-shadow( 1px 3px 5px #D1E1ED );
+		}
+
+		#ai {
+			padding-bottom: 5em;
+		}
+
+		#ai .col {
+			width: 50%;
+			float: right;
+			margin-right: 16%;
+			margin-top: 7em;
+		}
+
+		#ai amp-img {
+			width: 70%;
+			float: left;
+			margin-left: 9%;
+			margin-top: -15%;
+		}
+
+		#promo .container {
+			display: flex;
+			gap: 1.5em;
+			flex-wrap: wrap;
+			align-items: stretch;
+		}
+
+		.promo {
+			position: relative;
+			overflow: hidden;
+			box-sizing: border-box;
+			flex: 1 1 0;
+			min-width: 0;
+			padding: 2.75em;
+			min-height: 17em;
+			border-radius: 1em;
+			font-size: 0.9em;
+			display: flex;
+			transition: transform 0.15s ease, box-shadow 0.15s ease;
+			background-repeat: no-repeat;
+			background-size: 1400px 1400px;
+		}
+
+		.promo.brandmark {
+			background-color: #f6cf54;
+			background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1400' height='1400' viewBox='-700 -700 1400 1400'%3E%3Cdefs%3E%3Cpath id='r' d='M38.9,-61.1 L61.1,-38.9 Q100,0 61.1,38.9 L38.9,61.1 Q0,100 -38.9,61.1 L-61.1,38.9 Q-100,0 -61.1,-38.9 L-38.9,-61.1 Q0,-100 38.9,-61.1 Z'/%3E%3C/defs%3E%3Cuse href='%23r' transform='scale(7)' fill='%23f7d263'/%3E%3Cuse href='%23r' transform='scale(6)' fill='%23f8d672'/%3E%3Cuse href='%23r' transform='scale(5)' fill='%23f9da81'/%3E%3Cuse href='%23r' transform='scale(4)' fill='%23fadf90'/%3E%3Cuse href='%23r' transform='scale(3)' fill='%23fbe39f'/%3E%3Cuse href='%23r' transform='scale(2)' fill='%23fce8ae'/%3E%3Cuse href='%23r' transform='scale(1)' fill='%23fdecbd'/%3E%3Cuse href='%23r' transform='scale(0.5)' fill='%23fef1cc'/%3E%3C/svg%3E");
+			background-position: calc(100% + 712px) -780px;
+		}
+
+		.promo.domainsearch {
+			background-color: #0c0c0f;
+			background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1400' height='1400' viewBox='-700 -700 1400 1400'%3E%3Cdefs%3E%3Cpath id='r' d='M38.9,-61.1 L61.1,-38.9 Q100,0 61.1,38.9 L38.9,61.1 Q0,100 -38.9,61.1 L-61.1,38.9 Q-100,0 -61.1,-38.9 L-38.9,-61.1 Q0,-100 38.9,-61.1 Z'/%3E%3C/defs%3E%3Cuse href='%23r' transform='scale(7)' fill='%23101015'/%3E%3Cuse href='%23r' transform='scale(6)' fill='%2315151b'/%3E%3Cuse href='%23r' transform='scale(5)' fill='%23191921'/%3E%3Cuse href='%23r' transform='scale(4)' fill='%231e1e27'/%3E%3Cuse href='%23r' transform='scale(3)' fill='%2322222d'/%3E%3Cuse href='%23r' transform='scale(2)' fill='%23272733'/%3E%3Cuse href='%23r' transform='scale(1)' fill='%232b2b39'/%3E%3Cuse href='%23r' transform='scale(0.5)' fill='%2330303f'/%3E%3C/svg%3E");
+			background-position: -712px -780px;
+		}
+
+		.promo:hover {
+			transform: translateY(-3px);
+			box-shadow: 0 12px 28px rgba(26, 31, 70, 0.15);
+		}
+
+		.promo-body {
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			width: 100%;
+		}
+
+		.promo-visual {
+			display: flex;
+			align-items: center;
+			height: 4em;
+			margin-bottom: 1.6em;
+		}
+
+		/* Added the missing promo-logo CSS right here */
+		.promo-logo {
+			width: 13em;
+			max-width: 100%;
+			height: auto;
+			display: block;
+		}
+
+		.promo strong {
+			font-size: 1.35em;
+			font-weight: 500;
+			line-height: 1.4;
+			margin: 0 0 1.5em;
+		}
+
+		.brandmark strong {
+			color: #292d32;
+		}
+
+		.domainsearch strong {
+			color: #fff;
+		}
+
+		.promo-cta {
+			margin-top: auto;
+			display: inline-flex;
+			align-items: center;
+			gap: 0.6em;
+			font-weight: 500;
+		}
+
+		.brandmark .promo-cta {
+			color: #292d32;
+		}
+
+		.domainsearch .promo-cta {
+			color: #f6cf54;
+		}
+
+		.promo-cta svg {
+			transition: transform 0.15s ease;
+		}
+
+		.promo:hover .promo-cta svg {
+			transform: translateX(4px);
+		}
+
+		.domain-pill {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 1em;
+			box-sizing: border-box;
+			width: 100%;
+			min-width: 16em;
+			max-width: 19em;
+			background: #16161b;
+			border: 1px solid rgba(255,255,255,0.14);
+			border-radius: 0.6em;
+			padding: 0.7em 1em;
+			font-size: 1.05em;
+		}
+
+		.domain-pill .name {
+			color: #fff;
+		}
+
+		.domain-pill .tld {
+			color: #8d9097;
+		}
+
+		.domain-pill .status {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.45em;
+			color: #4cc66e;
+			font-size: 0.8em;
+			white-space: nowrap;
+		}
+
+		.domain-pill .dot {
+			width: 0.55em;
+			height: 0.55em;
+			border-radius: 50%;
+			background: #4cc66e;
+		}
+
+		@media only screen and (max-width : 1090px) {
+			.container { width: 50em; }
+		}
+
+		@media only screen and (max-width : 950px) {
+			.container {
+				width: 100%;
+				padding: 0 3em;
+				box-sizing: border-box;
+			}
+			#logos { background-size: cover; }
+			#logos amp-img {
+				float: right;
+				width: 60%;
+				margin: 2em -2em -5em 0;
+			}
+			.promo {
+				font-size: 0.85em;
+				padding: 2.25em;
+			}
+			.domain-pill { min-width: 0; }
+		}
+
+		@media only screen and (max-width : 768px) {
+			#logos .col, #mail .col {
+				width: 100%;
+				margin-top: 3em;
+				margin-bottom: 1em;
+			}
+			#logos h1 { text-align: center; }
+			#logos amp-img {
+				float: left;
+				clear: both;
+				width: 80%;
+				margin: 0 0 2em 10%;
+			}
+			#features { margin-top: 3em; }
+			#features .feature {
+				width: 50%;
+				border: 0;
+				padding: 0 2em;
+				margin-top: 3em;
+			}
+			#promo .container { flex-direction: column; }
+			.promo {
+				flex: none;
+				min-height: 0;
+				padding: 2.25em;
+				font-size: 0.9em;
+			}
+			.promo.brandmark { background-position: 50% -780px; }
+			.promo.domainsearch { background-position: 50% -1045px; }
+		}
+
+		@media only screen and (max-width : 720px) {
+			#logo, #nav {
+				float: none;
+				display: block;
+				margin: 1.5em auto;
+			}
+			#nav { display: none; }
+			#nav li {
+				width: 100%;
+				margin: 1em 0 0 0;
+				padding: 0;
+				text-align: center;
+			}
+			#intro h1 { font-size: 2em; }
+			h2 { font-size: 1.2em; }
+			#intro input { margin-top: 1em; }
+			#features .feature {
+				width: 100%;
+				padding: 0;
+				margin-top: 2em;
+			}
+			#ai .col {
+				width: 100%;
+				margin: 3em 0 1em 0;
+			}
+			#ai h1 { text-align: center; }
+			#ai amp-img {
+				width: 100%;
+				margin: 0;
+			}
+		}
+
+		@media only screen and (max-width : 570px) {
+			#intro h1 { font-size: 1.5em; }
+			h2 { font-size: 1em; }
+			#intro input.text { width: 100%; }
+			.promo { padding: 2em 1.75em; }
+			.domain-pill { max-width: 100%; }
+		}
+
+		@media only screen and (max-width : 480px) {
+			.container {
+				padding-left: 1em;
+				padding-right: 1em;
+			}
+		}
+		</style>
+		
+		<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+	</head>
+	<body>
+	<div class="section" id="main">
+		<div class="container">
+			<h1 id="logo"><a href="#"><amp-img src="img/logo.svg" alt="Namelix" width="112" height="24" layout="fixed"></amp-img></a></h1>
+			<ul id="nav">
+				<li><a href="http://brandmark.io/" target="_blank">by Brandmark.io <amp-img src="img/arrow_right.svg" alt="" width="24" height="16" layout="fixed" style="width: 1.6em; margin-left: 0.5em; vertical-align: middle"></amp-img></a></li>
+			</ul>
+			<div id="intro">
+				<h1>Business Name Generator</h1>
+				<h2>generate a short, brandable business name using artificial intelligence</h2>
+				<form action="https://namelix.com/app/" method="get" target="_top">
+					<input type="text" name="keywords" class="text" placeholder="Enter keywords" />
+					<input type="submit" value="Generate" class="button">
+				</form>
+			</div>
+			
+			<div id="features">
+				<div class="feature feature1">
+					<span class="icon"><amp-img src="img/idea.svg" alt="idea" width="32" height="32" layout="fixed"></amp-img></span>
+					<h3>AI naming engine</h3>
+					<p>Generate more original ideas than ChatGPT using our custom LLM</p>
+				</div>
+				<div class="feature feature2">
+					<span class="icon"><amp-img src="img/funnel.svg" alt="funnel" width="32" height="32" layout="fixed"></amp-img></span>
+					<h3>Filter results</h3>
+					<p>Decide whether you prioritize a shorter name, having a specific keyword or domain extension</p>
+				</div>
+				<div class="feature feature3">
+					<span class="icon"><amp-img src="img/heart.svg" alt="heart" width="32" height="32" layout="fixed"></amp-img></span>
+					<h3>Save your names</h3>
+					<p>Our algorithm learns from the names you like, giving you better recommendations over time</p>
+				</div>
+			</div>
+		</div>		
+	</div>
+	
+	<div class="section" id="logos">
+		<div class="container">
+			<div class="col">
+				<h1>Why a branded name?</h1>
+				<p>For new businesses, naming options can seem quite limited. Short domains are very expensive, yet longer multi-word names don’t inspire confidence.</p>
+				<p>In 2026 many startups are choosing a short, branded name - a name that’s unique, memorable and affordable.</p>
+			</div>
+			<amp-img src="img/logos.svg" alt="example names" width="1024" height="1024" layout="responsive"></amp-img>
+		</div>
+	</div>
+	
+	<div class="section" id="ai">
+		<div class="container">
+			<div class="col">
+				<h1>Unique, brandable names</h1>
+				<p>Most business name generators combine dictionary words to make longer names.</p>
+				<p>Namelix generates short, branded names that are relevant to your business idea. When you save a name, the algorithm learns your preferences and gives you better recommendations over time.</p>
+			</div>
+			<amp-img src="img/ai.svg" alt="neural net" width="683" height="386" layout="responsive"></amp-img>
+		</div>
+	</div>
+	
+	<div class="section" id="promo">
+		<div class="container">
+			<a href="https://brandmark.io/" target="_blank" class="promo brandmark">
+				<span class="promo-body">
+					<span class="promo-visual">
+						<amp-img class="promo-logo" src="img/brandmark2.svg" alt="Brandmark" width="512" height="52" layout="intrinsic"></amp-img>
+					</span>
+					<strong>Create a unique, professional logo for your business</strong>
+					<span class="promo-cta">Try Brandmark.io
+						<svg width="18" height="12" viewBox="0 0 18 12" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d="M1 6h15.2M11.5 1l5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+					</span>
+				</span>
+			</a>
+			<a href="domain-search/index.html" class="promo domainsearch" target="_top">
+				<span class="promo-body">
+					<span class="promo-visual">
+						<span class="domain-pill">
+							<span class="name">yourname<span class="tld">.com</span></span>
+							<span class="status"><span class="dot"></span>Available</span>
+						</span>
+					</span>
+					<strong>Find the perfect domain for your business, all domains free to register</strong>
+					<span class="promo-cta">Namelix Domains
+						<svg width="18" height="12" viewBox="0 0 18 12" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d="M1 6h15.2M11.5 1l5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+					</span>
+				</span>
+			</a>
+		</div>
+	</div>
+
+	<section id="footer" style="float: left; width: 100%; padding-top: 10em">
+		<div class="container">
+		</div>
+	</section>
+
+	<amp-analytics type="googleanalytics">
+	<script type="application/json">
+	{
+		"vars": {
+			"account": "UA-52772108-11"
+		},
+		"triggers": {
+			"trackPageview": {
+				"on": "visible",
+				"request": "pageview"
+			}
+		}
+	}
+	</script>
+	</amp-analytics>
+
+	</body>
+
+<!-- Mirrored from https://namelix.com/amp.html by HTTrack Website Copier/3.x [XR&CO], Tue, 17 Nov 2026 16:01:10 GMT -->
+</html>
